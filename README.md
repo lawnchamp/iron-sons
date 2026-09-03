@@ -2,4 +2,6 @@
 
 This repository publishes the public Iron Sons recruiting and schedule-overview page.
 
+**Live site:** [https://lawnchamp.github.io/iron-sons/](https://lawnchamp.github.io/iron-sons/)
+
 Confirmed locations and current event logistics are maintained in Google Calendar rather than on the public website.
