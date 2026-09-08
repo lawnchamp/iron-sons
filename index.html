@@ -179,6 +179,22 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
   font-weight:800;
 }
 .passage-link:hover{text-decoration:underline}
+
+html{scroll-behavior:smooth;scroll-padding-top:18px}
+.quick-nav{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}
+.quick-nav a{padding:11px 14px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--green);font-weight:700;font-size:14px}
+.goals{padding-left:22px}.goals li{margin:12px 0}
+.fall-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}
+.fall-grid h3{margin:9px 0}.fall-grid p{margin-bottom:12px}
+.study-date{font-size:14px;color:var(--muted);font-weight:700}
+.planning-dates li{margin:12px 0}
+details.planning{border-left:5px solid var(--tan);background:var(--tan2)}
+.future-panel{margin-top:28px}.future-panel>summary{display:list-item;cursor:pointer;min-height:48px;padding:8px 0}.future-panel>summary h2{display:inline;font-size:22px}
+.future-panel[open]>summary{margin-bottom:12px}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.activity-count .label,.activity-note,.badge{font-size:14px}
+@media(max-width:600px){.fall-grid{grid-template-columns:1fr}.quick-nav a{flex:1 1 42%;text-align:center}.future-panel>summary h2{font-size:20px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
@@ -186,43 +202,29 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <header class="hero"><div class="iron-brand">
 <div class="eyebrow">Father + Son Discipleship</div>
 <div class="name">IRON <span>SONS</span></div>
-<div class="theme-ref">Theme Verse • <a class="scripture-link" href="https://www.esv.org/verses/1%20Corinthians%2016%3A13-14/" target="_blank" rel="noopener">1 Corinthians 16:13–14</a></div>
-<div class="iron-commands">
-<div class="iron-command">Be Watchful</div>
-<div class="iron-command">Stand Firm<br>in the Faith</div>
-<div class="iron-command">Act Like Men</div>
-<div class="iron-command">Be Strong</div>
-<div class="iron-command">Do Everything<br>in Love</div>
-</div>
-<div class="verse">“Be watchful, stand firm in the faith, act like men, be strong. Let all that you do be done in love.”</div>
-</div><h1>2026–2027 Father–Son Calendar &amp; Curriculum</h1><div class="subtitle">The curriculum spends the year asking what biblical manhood actually looks like through the stories of men in Scripture.</div></header>
-<section class="curriculum-panel">
-<h2>The Iron Sons Curriculum</h2>
-<p><strong>Name:</strong> IRON SONS — “Iron Sharpens Iron,” <a class="scripture-link" href="https://www.esv.org/verses/Proverbs%2027%3A17/" target="_blank" rel="noopener">Proverbs 27:17</a></p>
-<p><strong>One verse, one year-long question:</strong> What does <a class="scripture-link" href="https://www.esv.org/verses/1%20Corinthians%2016%3A13-14/" target="_blank" rel="noopener">1 Corinthians 16:13–14</a> actually look like in the life of a man?</p>
-<p>On Bible-study nights we read a real passage or story, understand what happened, and then look for the five commands in action. Not every story demonstrates all five equally; that is part of the discussion.</p>
-<div class="curriculum-grid">
-<div class="curriculum-card"><strong>Be Watchful</strong></div>
-<div class="curriculum-card"><strong>Stand Firm</strong></div>
-<div class="curriculum-card"><strong>Act Like Men</strong></div>
-<div class="curriculum-card"><strong>Be Strong</strong></div>
-<div class="curriculum-card"><strong>Do Everything in Love</strong></div>
-</div>
-<p class="recurring-question"><strong>Recurring question around the fire:</strong> “Where in this passage do you see someone being watchful, standing firm, acting like a man, being strong, or acting in love? Where does he fail to do those things?”</p>
-<p class="core-passages"><strong>Core passages woven through the year:</strong> <a class="scripture-link" href="https://www.esv.org/verses/1%20Corinthians%2016%3A13-14/" target="_blank" rel="noopener">1 Corinthians 16:13–14</a> • <a class="scripture-link" href="https://www.esv.org/verses/Micah%206%3A8/" target="_blank" rel="noopener">Micah 6:8</a> • <a class="scripture-link" href="https://www.esv.org/verses/Ephesians%206%3A10-18/" target="_blank" rel="noopener">Ephesians 6:10–18</a> • <a class="scripture-link" href="https://www.esv.org/verses/1%20Timothy%204%3A12/" target="_blank" rel="noopener">1 Timothy 4:12</a> • <a class="scripture-link" href="https://www.esv.org/verses/Psalm%201%3A1-3/" target="_blank" rel="noopener">Psalm 1:1–3</a> • <a class="scripture-link" href="https://www.esv.org/verses/Joshua%201%3A1-9/" target="_blank" rel="noopener">Joshua 1:1–9</a> • <a class="scripture-link" href="https://www.esv.org/verses/Proverbs%2027%3A17/" target="_blank" rel="noopener">Proverbs 27:17</a>.</p>
-<div class="overview-wrap" style="margin-top:12px">
-<table class="overview">
-<thead><tr><th>Curriculum emphasis</th><th>Key passages / men</th></tr></thead>
-<tbody>
-<tr><td><strong>What is an Iron Son?</strong></td><td><a class="scripture-link" href="https://www.esv.org/verses/1%20Corinthians%2016%3A13-14/" target="_blank" rel="noopener">1 Cor. 16:13–14</a> • <a class="scripture-link" href="https://www.esv.org/verses/Micah%206%3A8/" target="_blank" rel="noopener">Micah 6:8</a> • <a class="scripture-link" href="https://www.esv.org/verses/1%20Timothy%204%3A12/" target="_blank" rel="noopener">1 Tim. 4:12</a> • <a class="scripture-link" href="https://www.esv.org/verses/Proverbs%2027%3A17/" target="_blank" rel="noopener">Prov. 27:17</a></td></tr>
-<tr><td><strong>Stand Firm</strong></td><td>Joshua • Daniel • Shadrach, Meshach &amp; Abednego • <a class="scripture-link" href="https://www.esv.org/verses/Psalm%201/" target="_blank" rel="noopener">Psalm 1</a></td></tr>
-<tr><td><strong>Act Like Men</strong></td><td>David vs. Goliath • Jonathan • Nehemiah • wise builder</td></tr>
-<tr><td><strong>Be Strong</strong></td><td><a class="scripture-link" href="https://www.esv.org/verses/Ephesians%206/" target="_blank" rel="noopener">Eph. 6</a> • Jesus in the storm • Jonathan &amp; armor-bearer • David sparing Saul</td></tr>
-<tr><td><strong>Do Everything in Love</strong></td><td>Good Samaritan • Joseph forgiving • father of the prodigal • Jesus serving Peter • Jesus washing feet</td></tr>
-</tbody>
-</table>
-</div>
-</section>
+<div class="theme-ref">Open Bibles. Growing friendships. Faith lived together.</div>
+</div><h1>2026–2027 Father–Son Plan &amp; Calendar</h1>
+<div class="subtitle">Four fall studies to begin a shared habit of reading Scripture, following Jesus, and learning from one another. This winter, the dads will pray and plan the next steps together.</div></header>
+<nav class="quick-nav" aria-label="Jump to a section"><a href="#goals">Our goals</a><a href="#fall-studies">Four fall studies</a><a href="#winter-planning">Dads’ winter meetings</a><a href="#calendar">Calendar</a><a href="#future-theme">Possible 2027 theme</a></nav>
+<section class="curriculum-panel" id="goals">
+<h2>What we hope will grow</h2>
+<ul class="goals">
+<li><strong>Trusted relationships:</strong> Build friendships with boys and Christian men our sons can turn to for wise counsel through middle and high school.</li>
+<li><strong>A shared Bible habit:</strong> Make opening Scripture together normal, and help the boys notice what a passage actually says.</li>
+<li><strong>Faith they can see:</strong> Let the boys see dads who delight in God’s Word, take their faith seriously, and receive teaching and correction themselves.</li>
+<li><strong>Honest conversations:</strong> Grow comfortable talking about God, temptation, failure, and forgiveness.</li>
+<li><strong>Growing dependence on Jesus:</strong> Help our sons understand what Jesus asks of them and why they need him.</li>
+</ul></section>
+<section class="curriculum-panel" id="fall-studies"><h2>Fall 2026 · Four studies to begin</h2>
+<p>Start with the passage itself. Use <strong>COMA: Context, Observation, Meaning, Application</strong> to understand what it says before asking how we should respond. Dads and sons learn together.</p>
+<div class="fall-grid"><article class="curriculum-card"><div class="study-date">Study 1 · Tue Oct 13, 2026</div><h3><a class="scripture-link" href="https://www.esv.org/Psalm%201/">Psalm 1</a></h3><strong>Delight in God’s Word</strong><p>Turn from wicked counsel and delight in the Lord’s instruction. This is the foundation for the friendships and habits we hope to grow together.</p><a href="#event-0">Meeting details →</a></article>
+<article class="curriculum-card"><div class="study-date">Study 2 · Tue Oct 27, 2026</div><h3><a class="scripture-link" href="https://www.esv.org/Proverbs%2027%3A9-10%2C%2017/">Proverbs 27:9–10, 17</a></h3><strong>Friendship that sharpens</strong><p>Introduce the name Iron Sons: faithful friends offer heartfelt counsel, stay close in trouble, and help one another grow.</p><a href="#event-1">Meeting details →</a></article>
+<article class="curriculum-card"><div class="study-date">Study 3 · Tue Nov 10, 2026</div><h3><a class="scripture-link" href="https://www.esv.org/John%2010%3A11-18/">John 10:11–18</a></h3><strong>Jesus, the good shepherd</strong><p>Listen to who Jesus says he is: the good shepherd who knows his sheep, willingly lays down his life for them, and takes it up again. Consider why we can trust him.</p><a href="#event-2">Meeting details →</a></article>
+<article class="curriculum-card"><div class="study-date">Study 4 · Tue Nov 17, 2026</div><h3><a class="scripture-link" href="https://www.esv.org/Ephesians%206%3A1-4/">Ephesians 6:1–4</a></h3><strong>Children and fathers under God’s Word</strong><p>Children are called to obey and honor their parents; fathers are called to avoid provoking their children and to bring them up in the Lord’s discipline and instruction. Both generations come ready to learn.</p><a href="#event-3">Meeting details →</a></article>
+</div></section>
+<section class="curriculum-panel" id="winter-planning"><h2>Winter · Dads study, pray, and plan</h2>
+<p>While the boys take a winter break, dads will meet once a month to study Scripture, pray for our sons, and shape a shared vision for the next two years before middle-school ministry. We will choose future studies together and share the work of leading them.</p>
+<p><strong>Dads only · Tuesdays · 7:30–9:30 PM Eastern.</strong> Locations will be confirmed in Google Calendar.</p><ul class="planning-dates"><li><a href="#planning-2026-12-08">Tue Dec 8, 2026</a> — Reflect and pray</li><li><a href="#planning-2027-01-12">Tue Jan 12, 2027</a> — Study and discuss direction</li><li><a href="#planning-2027-02-02">Tue Feb 2, 2027</a> — Choose studies and share leadership</li></ul><p><a href="#future-theme">See the possible theme and books for discussion ↓</a></p></section>
 <section class="activity-mix">
 <h2>Activity Mix</h2>
 <div class="activity-grid">
@@ -249,21 +251,21 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 </div>
 <div class="program-note">
 <p><strong>Participation philosophy:</strong> This is a structured father–son rhythm we would be doing anyway, with an open invitation for other dads and sons to join. No family is expected to own every piece of specialty equipment or attend every event.</p>
-<p><strong>Archery-night pattern:</strong> archery from 6:30–7:30, then bonfire + Bible study from 7:30–8:30. A family without a bow can simply join at 7:30.</p>
-<p><strong>Lifting-night pattern:</strong> lifting from 6:30–7:30, then Bible study from 7:30–8:30. Activities will be adapted for the dads and sons attending.</p>
+<p><strong>Archery nights:</strong> archery followed by bonfire + Bible study. Families without bows are welcome to join for the study; check Google Calendar for that evening’s start time.</p>
+<p><strong>Lifting nights:</strong> lifting followed by Bible study, with activities adapted for the dads and sons attending. Check Google Calendar for the study start time.</p>
 </div>
 <div class="controls">
 <button id="expand">Expand all plans</button>
 <button class="secondary" id="collapse">Collapse all</button>
 </div>
-<h2>At-a-glance calendar</h2>
+<h2 id="calendar">At-a-glance calendar</h2><p>All times are Eastern. The four fall passages are selected; Bible studies and reflections from February 2027 onward will be chosen together during winter planning. Activity dates remain on the schedule.</p>
 <div class="overview-wrap">
 <table class="overview">
 <thead><tr><th>Date</th><th>Event</th><th>Emphasis</th></tr></thead>
-<tbody><tr><td>Tue Oct 13, 2026</td><td>🏹 Archery Kickoff + Opening Campfire</td><td>Activity + Bible study</td></tr><tr><td>Tue Oct 27, 2026</td><td>🔥 Fire Building + Pocket Knife Skills</td><td>Activity + Bible study</td></tr><tr><td>Tue Nov 10, 2026</td><td>🏋️ Garage Lifting Night — Strength &amp; Stewardship</td><td>Activity + Bible study</td></tr><tr><td>Tue Nov 17, 2026</td><td>🏋️ Garage Lifting Night</td><td>Activity + Bible study</td></tr><tr><td>Dec 2026 – Jan 2027</td><td>❄️ Winter / Christmas break</td><td>Break</td></tr><tr><td>Tue Feb 9, 2027</td><td>🧗 Indoor Rock Climbing</td><td>Activity only</td></tr><tr><td>Tue Feb 23, 2027</td><td>🏋️ Garage Lifting + Daniel</td><td>Activity + Bible study</td></tr><tr><td>Tue Mar 9, 2027</td><td>⚾ Indoor Batting Cages</td><td>Activity only</td></tr><tr><td>Tue Mar 23, 2027</td><td>🏋️ Garage Lifting + Wise &amp; Foolish Builders</td><td>Activity + Bible study</td></tr><tr><td>Tue Apr 13, 2027</td><td>🏹 Archery + David and Goliath</td><td>Activity + Bible study</td></tr><tr><td>Tue Apr 27, 2027</td><td>🪓 Hatchets + Wood Skills</td><td>Activity night</td></tr><tr><td>Tue May 11, 2027</td><td>🏹 Archery + Jesus Calms the Storm</td><td>Activity + Bible study</td></tr><tr><td>Tue May 25, 2027</td><td>🏋️ Garage / Outdoor Lifting Night</td><td>Activity + Bible study</td></tr><tr><td>Fri–Sat May 28–29, 2027</td><td>⛺ Spring Father–Son Campout</td><td>Campout + Bible study</td></tr><tr><td>Tue Jun 8, 2027</td><td>🚵 Mountain Biking</td><td>Activity only</td></tr><tr><td>Sat Jun 19, 2027</td><td>🛶 Canoe / River Adventure Day</td><td>Adventure + brief reflection</td></tr><tr><td>Tue Jun 22, 2027</td><td>🪚 Build Something Useful</td><td>Activity night</td></tr><tr><td>Tue Jul 13, 2027</td><td>🔥 Firecraft + Outdoor Cooking</td><td>Activity night</td></tr><tr><td>Sat Jul 17, 2027</td><td>🎣 Catch, Clean &amp; Cook Fish Day</td><td>Adventure + brief reflection</td></tr><tr><td>Tue Jul 27, 2027</td><td>🏹 Archery Challenge + Joseph Forgives</td><td>Activity + Bible study</td></tr><tr><td>Tue Aug 10, 2027</td><td>🎯 BB Rifle Safety + Fall Campout Prep</td><td>Activity night</td></tr><tr><td>Fri–Sun Aug 20–22, 2027</td><td>⛺🔥 Fall Father–Son Campout</td><td>Campout + Bible study</td></tr><tr><td>Tue Aug 24, 2027</td><td>🚵 Mountain Biking</td><td>Activity only</td></tr><tr><td>Sat Sep 4, 2027</td><td>🥾 Big Father–Son Hike</td><td>Adventure + brief reflection</td></tr><tr><td>Tue Sep 28, 2027</td><td>🏹 Archery + David and Jonathan</td><td>Activity + Bible study</td></tr><tr><td>Tue Oct 12, 2027</td><td>🍳 Outdoor Cooking + Campfire Night</td><td>Activity night</td></tr><tr><td>Tue Oct 26, 2027</td><td>🔥 Final Bonfire + Jesus Washes Feet</td><td>Activity + Bible study</td></tr></tbody>
+<tbody><tr><td>Tue Oct 13, 2026</td><td>🏹 Archery Kickoff + Opening Campfire</td><td>Activity + Bible study</td></tr><tr><td>Tue Oct 27, 2026</td><td>🔥 Fire Building + Pocket Knife Skills</td><td>Activity + Bible study</td></tr><tr><td>Tue Nov 10, 2026</td><td>🏋️ Garage Lifting Night</td><td>Activity + Bible study</td></tr><tr><td>Tue Nov 17, 2026</td><td>🏋️ Garage Lifting Night</td><td>Activity + Bible study</td></tr><tr><td>Dec 2026 – Jan 2027</td><td>❄️ Father–son winter break; dads meet monthly</td><td>Boys’ break</td></tr><tr><td>Tue Dec 8, 2026</td><td><a href="#planning-2026-12-08">Dads only · Reflect and pray</a></td><td>7:30–9:30 PM · Study, prayer &amp; planning</td></tr><tr><td>Tue Jan 12, 2027</td><td><a href="#planning-2027-01-12">Dads only · Study and discuss direction</a></td><td>7:30–9:30 PM · Study, prayer &amp; planning</td></tr><tr><td>Tue Feb 2, 2027</td><td><a href="#planning-2027-02-02">Dads only · Choose studies and share leadership</a></td><td>7:30–9:30 PM · Study, prayer &amp; planning</td></tr><tr><td>Tue Feb 9, 2027</td><td>🧗 Indoor Rock Climbing</td><td>Activity only</td></tr><tr><td>Tue Feb 23, 2027</td><td>🏋️ Garage Lifting + Bible Study</td><td>Activity + Bible study</td></tr><tr><td>Tue Mar 9, 2027</td><td>⚾ Indoor Batting Cages</td><td>Activity only</td></tr><tr><td>Tue Mar 23, 2027</td><td>🏋️ Garage Lifting + Bible Study</td><td>Activity + Bible study</td></tr><tr><td>Tue Apr 13, 2027</td><td>🏹 Archery + Bible Study</td><td>Activity + Bible study</td></tr><tr><td>Tue Apr 27, 2027</td><td>🪓 Hatchets + Wood Skills</td><td>Activity night</td></tr><tr><td>Tue May 11, 2027</td><td>🏹 Archery + Bible Study</td><td>Activity + Bible study</td></tr><tr><td>Tue May 25, 2027</td><td>🏋️ Garage / Outdoor Lifting Night</td><td>Activity + Bible study</td></tr><tr><td>Fri–Sat May 28–29, 2027</td><td>⛺ Spring Father–Son Campout</td><td>Campout + Bible study</td></tr><tr><td>Tue Jun 8, 2027</td><td>🚵 Mountain Biking</td><td>Activity only</td></tr><tr><td>Sat Jun 19, 2027</td><td>🛶 Canoe / River Adventure Day</td><td>Adventure + brief reflection</td></tr><tr><td>Tue Jun 22, 2027</td><td>🪚 Build Something Useful</td><td>Activity night</td></tr><tr><td>Tue Jul 13, 2027</td><td>🔥 Firecraft + Outdoor Cooking</td><td>Activity night</td></tr><tr><td>Sat Jul 17, 2027</td><td>🎣 Catch, Clean &amp; Cook Fish Day</td><td>Adventure + brief reflection</td></tr><tr><td>Tue Jul 27, 2027</td><td>🏹 Archery Challenge + Bible Study</td><td>Activity + Bible study</td></tr><tr><td>Tue Aug 10, 2027</td><td>🎯 BB Rifle Safety + Fall Campout Prep</td><td>Activity night</td></tr><tr><td>Fri–Sun Aug 20–22, 2027</td><td>⛺🔥 Fall Father–Son Campout</td><td>Campout + Bible study</td></tr><tr><td>Tue Aug 24, 2027</td><td>🚵 Mountain Biking</td><td>Activity only</td></tr><tr><td>Sat Sep 4, 2027</td><td>🥾 Big Father–Son Hike</td><td>Adventure + brief reflection</td></tr><tr><td>Tue Sep 28, 2027</td><td>🏹 Archery + Bible Study</td><td>Activity + Bible study</td></tr><tr><td>Tue Oct 12, 2027</td><td>🍳 Outdoor Cooking + Campfire Night</td><td>Activity night</td></tr><tr><td>Tue Oct 26, 2027</td><td>🔥 Final Bonfire + Bible Study</td><td>Activity + Bible study</td></tr></tbody>
 </table>
 </div>
-<h2>Expandable lesson plans</h2>
+<h2>Expandable meeting details</h2>
 <details class="event study" id="event-0">
 <summary>
 <div class="date">Tue Oct 13, 2026</div>
@@ -271,7 +273,7 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Practice archery together, then gather around the bonfire for the opening Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Archery</td></tr><tr><td>7:30–8:30</td><td>Bonfire + Bible study — <a class="scripture-link" href="https://www.esv.org/verses/Joshua%201%3A1-9/" target="_blank" rel="noopener">Joshua 1:1–9</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Bow and arrows if participating; Bible and a chair for the bonfire. No bow is needed to join at 7:30.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/Joshua%201%3A1-9/" target="_blank" rel="noopener">Joshua 1:1–9</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Practice archery together, then gather around the bonfire for the opening Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:15</td><td>Archery</td></tr><tr><td>7:15–8:30</td><td>Bonfire + Bible study — <a class="scripture-link" href="https://www.esv.org/Psalm%201/">Psalm 1</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Bow and arrows if participating; Bible and a chair for the bonfire. No bow is needed to join the Bible study at 7:15.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/Psalm%201/">Psalm 1</a></strong></p><p>Turn from wicked counsel and delight in the Lord’s instruction. This is the foundation for the friendships and habits we hope to grow together.</p></section></div>
 </details>
 <details class="event study" id="event-1">
 <summary>
@@ -280,16 +282,16 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Carve roasting sticks, learn the basics of building a fire, roast marshmallows, and finish with Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:15</td><td>Carve roasting sticks + fire-building demonstration</td></tr><tr><td>7:15–8:30</td><td>Bonfire + Bible study — <a class="scripture-link" href="https://www.esv.org/verses/Micah%206%3A6-8/" target="_blank" rel="noopener">Micah 6:6–8</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Pocket knife, Bible, and outdoor clothing.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/Micah%206%3A6-8/" target="_blank" rel="noopener">Micah 6:6–8</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Carve roasting sticks, learn the basics of building a fire, roast marshmallows, and finish with Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:20</td><td>Safety, pocket-knife skills, and carving</td></tr><tr><td>7:20–8:05</td><td>Fire building and roasting marshmallows</td></tr><tr><td>8:05–8:30</td><td>Short Bible study, prayer, and wrap-up — <a class="scripture-link" href="https://www.esv.org/Proverbs%2027%3A9-10%2C%2017/">Proverbs 27:9–10, 17</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Pocket knife, Bible, and outdoor clothing.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/Proverbs%2027%3A9-10%2C%2017/">Proverbs 27:9–10, 17</a></strong></p><p>Introduce the name Iron Sons: faithful friends offer heartfelt counsel, stay close in trouble, and help one another grow.</p></section></div>
 </details>
 <details class="event study" id="event-2">
 <summary>
 <div class="date">Tue Nov 10, 2026</div>
-<div class="summary-main"><span class="event-title">🏋️ Garage Lifting Night — Strength &amp; Stewardship</span><span class="badge">Activity + Bible study</span></div>
+<div class="summary-main"><span class="event-title">🏋️ Garage Lifting Night</span><span class="badge">Activity + Bible study</span></div>
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Lift together for an hour, then gather for Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Lifting</td></tr><tr><td>7:30–8:30</td><td>Bible study — <a class="scripture-link" href="https://www.esv.org/verses/1%20Timothy%204%3A12-16/" target="_blank" rel="noopener">1 Timothy 4:12–16</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Water and a Bible; lifting equipment is provided.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/1%20Timothy%204%3A12-16/" target="_blank" rel="noopener">1 Timothy 4:12–16</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Lift together, then gather for Bible study and prayer.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:35</td><td>Lifting</td></tr><tr><td>7:35–8:30</td><td>Bible study — <a class="scripture-link" href="https://www.esv.org/John%2010%3A11-18/">John 10:11–18</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Water and a Bible; lifting equipment is provided.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/John%2010%3A11-18/">John 10:11–18</a></strong></p><p>Listen to who Jesus says he is: the good shepherd who knows his sheep, willingly lays down his life for them, and takes it up again. Consider why we can trust him.</p></section></div>
 </details>
 <details class="event study" id="event-3">
 <summary>
@@ -298,17 +300,20 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Lift together for an hour, then gather for Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Lifting</td></tr><tr><td>7:30–8:30</td><td>Bible study — <a class="scripture-link" href="https://www.esv.org/verses/Proverbs%2027%3A17/" target="_blank" rel="noopener">Proverbs 27:17</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Water and a Bible; lifting equipment is provided.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/Proverbs%2027%3A17/" target="_blank" rel="noopener">Proverbs 27:17</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Lift together, then gather for Bible study and prayer.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:50</td><td>Gather, warm up, and lift</td></tr><tr><td>7:50–8:05</td><td>Clean up</td></tr><tr><td>8:05–8:30</td><td>Short Bible study, prayer, and wrap-up — <a class="scripture-link" href="https://www.esv.org/Ephesians%206%3A1-4/">Ephesians 6:1–4</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Water and a Bible; lifting equipment is provided.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/Ephesians%206%3A1-4/">Ephesians 6:1–4</a></strong></p><p>Children are called to obey and honor their parents; fathers are called to avoid provoking their children and to bring them up in the Lord’s discipline and instruction. Both generations come ready to learn.</p></section></div>
 </details>
 <details class="event break" id="event-4">
 <summary>
 <div class="date">Dec 2026 – Jan 2027</div>
 <div class="summary-main"><span class="event-title">❄️ Christmas / Midwinter Break</span><span class="badge">Break</span></div>
-<div class="time">No regular meetings</div>
+<div class="time">No regular father–son meetings</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>There are no regular Iron Sons meetings during the Christmas and midwinter break.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>December–January</td><td>No regular meetings</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Nothing.</p></div></section></div>
+<section><h3>What we're doing</h3><p>The boys take a break from regular meetings during December and January. Dads meet monthly for study, prayer, and planning; see the three dates below. Father–son meetings resume February 9.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>December–January</td><td>No regular father–son meetings</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Nothing.</p></div></section></div>
 </details>
+<details class="event planning" id="planning-2026-12-08"><summary><div class="date">Tue Dec 8, 2026</div><div class="summary-main"><span class="event-title">Dads · Reflect and pray</span><span class="badge">Dads only · Study, prayer &amp; planning</span></div><div class="time">7:30–9:30 PM</div></summary><div class="event-body"><section><h3>Our focus</h3><p>Reflect on the first four studies, pray for our boys by name, and share what we hope they will grow toward before middle school.</p><p><strong>Bring:</strong> a Bible and something to take notes with.</p><p><strong>Location:</strong> to be confirmed in Google Calendar. All times are Eastern.</p><p><a href="https://www.google.com/calendar/event?eid=a2NmbTAyYW9xb20yOTlkazFwZTY3amRnbWMgYzA2NWM0ZWMwZGY5MzdlMmQ1NWVmNzAzYjk0ZjY1ODg3YWQ4NTIyMzEzOWUyNTAzZDg4OTgzZmZjZDFmNDgzZkBn">Open this meeting in Google Calendar →</a></p></section></div></details>
+<details class="event planning" id="planning-2027-01-12"><summary><div class="date">Tue Jan 12, 2027</div><div class="summary-main"><span class="event-title">Dads · Study and discuss direction</span><span class="badge">Dads only · Study, prayer &amp; planning</span></div><div class="time">7:30–9:30 PM</div></summary><div class="event-body"><section><h3>Our focus</h3><p>Open Scripture together, pray for our sons, and discuss a possible biblical-manhood theme and resources for the coming year.</p><p><strong>Bring:</strong> a Bible and something to take notes with.</p><p><strong>Location:</strong> to be confirmed in Google Calendar. All times are Eastern.</p><p><a href="https://www.google.com/calendar/event?eid=b3M0bGo0ZmN1N2dnZ2VrNjYwNTFrOXNwZDAgYzA2NWM0ZWMwZGY5MzdlMmQ1NWVmNzAzYjk0ZjY1ODg3YWQ4NTIyMzEzOWUyNTAzZDg4OTgzZmZjZDFmNDgzZkBn">Open this meeting in Google Calendar →</a></p></section></div></details>
+<details class="event planning" id="planning-2027-02-02"><summary><div class="date">Tue Feb 2, 2027</div><div class="summary-main"><span class="event-title">Dads · Choose studies and share leadership</span><span class="badge">Dads only · Study, prayer &amp; planning</span></div><div class="time">7:30–9:30 PM</div></summary><div class="event-body"><section><h3>Our focus</h3><p>Pray, choose the next passages together, share preparation and leadership, and shape a common vision for the next two years before middle-school ministry.</p><p><strong>Bring:</strong> a Bible and something to take notes with.</p><p><strong>Location:</strong> to be confirmed in Google Calendar. All times are Eastern.</p><p><a href="https://www.google.com/calendar/event?eid=ZmtxZWM2bGEybWQ2aG5yb21rdjQ5bDI1NjQgYzA2NWM0ZWMwZGY5MzdlMmQ1NWVmNzAzYjk0ZjY1ODg3YWQ4NTIyMzEzOWUyNTAzZDg4OTgzZmZjZDFmNDgzZkBn">Open this meeting in Google Calendar →</a></p></section></div></details>
 <details class="event activity" id="event-5">
 <summary>
 <div class="date">Tue Feb 9, 2027</div>
@@ -321,11 +326,11 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <details class="event study" id="event-6">
 <summary>
 <div class="date">Tue Feb 23, 2027</div>
-<div class="summary-main"><span class="event-title">🏋️ Garage Lifting + Daniel</span><span class="badge">Activity + Bible study</span></div>
+<div class="summary-main"><span class="event-title">🏋️ Garage Lifting + Bible Study</span><span class="badge">Activity + Bible study</span></div>
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Lift together for an hour, then gather for Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Lifting</td></tr><tr><td>7:30–8:30</td><td>Bible study — <a class="scripture-link" href="https://www.esv.org/verses/Daniel%201%3A3-20/" target="_blank" rel="noopener">Daniel 1:3–20</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Water and a Bible; lifting equipment is provided.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/Daniel%201%3A3-20/" target="_blank" rel="noopener">Daniel 1:3–20</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Lift together for an hour, then gather for Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Lifting</td></tr><tr><td>7:30–8:30</td><td>Bible study — Passage to be chosen during winter planning</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Water and a Bible; lifting equipment is provided.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
 <details class="event activity" id="event-7">
 <summary>
@@ -339,20 +344,20 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <details class="event study" id="event-8">
 <summary>
 <div class="date">Tue Mar 23, 2027</div>
-<div class="summary-main"><span class="event-title">🏋️ Garage Lifting + Build on the Rock</span><span class="badge">Activity + Bible study</span></div>
+<div class="summary-main"><span class="event-title">🏋️ Garage Lifting + Bible Study</span><span class="badge">Activity + Bible study</span></div>
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Lift together for an hour, then gather for Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Lifting</td></tr><tr><td>7:30–8:30</td><td>Bible study — <a class="scripture-link" href="https://www.esv.org/verses/Matthew%207%3A24-27/" target="_blank" rel="noopener">Matthew 7:24–27</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Water and a Bible; lifting equipment is provided.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/Matthew%207%3A24-27/" target="_blank" rel="noopener">Matthew 7:24–27</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Lift together for an hour, then gather for Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Lifting</td></tr><tr><td>7:30–8:30</td><td>Bible study — Passage to be chosen during winter planning</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Water and a Bible; lifting equipment is provided.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
 <details class="event study" id="event-9">
 <summary>
 <div class="date">Tue Apr 13, 2027</div>
-<div class="summary-main"><span class="event-title">🏹 Archery + David and Goliath</span><span class="badge">Activity + Bible study</span></div>
+<div class="summary-main"><span class="event-title">🏹 Archery + Bible Study</span><span class="badge">Activity + Bible study</span></div>
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Practice archery together, then gather around the bonfire for Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Archery</td></tr><tr><td>7:30–8:30</td><td>Bonfire + Bible study — <a class="scripture-link" href="https://www.esv.org/verses/1%20Samuel%2017%3A32-49/" target="_blank" rel="noopener">1 Samuel 17:32–49</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Bow and arrows if participating; Bible and a chair for the bonfire. No bow is needed to join at 7:30.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/1%20Samuel%2017%3A32-49/" target="_blank" rel="noopener">1 Samuel 17:32–49</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Practice archery together, then gather around the bonfire for Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Archery</td></tr><tr><td>7:30–8:30</td><td>Bonfire + Bible study — Passage to be chosen during winter planning</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Bow and arrows if participating; Bible and a chair for the bonfire. No bow is needed to join at 7:30.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
 <details class="event activity" id="event-10">
 <summary>
@@ -361,16 +366,16 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Learn and practice age-appropriate hatchet and wood skills together, with a brief Scripture reflection during the evening.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–8:30</td><td>Hatchet + wood-skills activity</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Closed-toe shoes, work gloves, eye protection, and a Bible.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/Nehemiah%204%3A6-23/" target="_blank" rel="noopener">Nehemiah 4:6–23</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Learn and practice age-appropriate hatchet and wood skills together, with a brief Scripture reflection during the evening.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–8:30</td><td>Hatchet + wood-skills activity</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Closed-toe shoes, work gloves, eye protection, and a Bible.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
 <details class="event study" id="event-11">
 <summary>
 <div class="date">Tue May 11, 2027</div>
-<div class="summary-main"><span class="event-title">🏹 Archery + Jesus Calms the Storm</span><span class="badge">Activity + Bible study</span></div>
+<div class="summary-main"><span class="event-title">🏹 Archery + Bible Study</span><span class="badge">Activity + Bible study</span></div>
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Practice archery together, then gather around the bonfire for Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Archery</td></tr><tr><td>7:30–8:30</td><td>Bonfire + Bible study — <a class="scripture-link" href="https://www.esv.org/verses/Mark%204%3A35-41/" target="_blank" rel="noopener">Mark 4:35–41</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Bow and arrows if participating; Bible and a chair for the bonfire. No bow is needed to join at 7:30.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/Mark%204%3A35-41/" target="_blank" rel="noopener">Mark 4:35–41</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Practice archery together, then gather around the bonfire for Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Archery</td></tr><tr><td>7:30–8:30</td><td>Bonfire + Bible study — Passage to be chosen during winter planning</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Bow and arrows if participating; Bible and a chair for the bonfire. No bow is needed to join at 7:30.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
 <details class="event study" id="event-12">
 <summary>
@@ -379,7 +384,7 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Lift together for an hour, then gather for Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Lifting</td></tr><tr><td>7:30–8:30</td><td>Bible study — <a class="scripture-link" href="https://www.esv.org/verses/1%20Samuel%2014%3A1-14/" target="_blank" rel="noopener">1 Samuel 14:1–14</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Water and a Bible; lifting equipment is provided.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/1%20Samuel%2014%3A1-14/" target="_blank" rel="noopener">1 Samuel 14:1–14</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Lift together for an hour, then gather for Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Lifting</td></tr><tr><td>7:30–8:30</td><td>Bible study — Passage to be chosen during winter planning</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Water and a Bible; lifting equipment is provided.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
 <details class="event weekend" id="event-13">
 <summary>
@@ -388,7 +393,7 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="time">Friday evening through Saturday afternoon</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Spend Friday night and Saturday camping, eating, learning outdoor skills, and studying Scripture together.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>Friday evening</td><td>Arrive, set camp, eat, and gather around the fire</td></tr><tr><td>Friday 8:00</td><td>Bible study — <a class="scripture-link" href="https://www.esv.org/verses/Psalm%2027%3A1-5%2C13-14/" target="_blank" rel="noopener">Psalm 27:1–5, 13–14</a></td></tr><tr><td>Saturday</td><td>Breakfast, outdoor activities, and pack-out by late afternoon</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Camping gear, food, water, Bible, and activity-specific equipment; final packing details will follow.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/Psalm%2027%3A1-5%2C13-14/" target="_blank" rel="noopener">Psalm 27:1–5, 13–14</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Spend Friday night and Saturday camping, eating, learning outdoor skills, and studying Scripture together.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>Friday evening</td><td>Arrive, set camp, eat, and gather around the fire</td></tr><tr><td>Friday 8:00</td><td>Bible study — Passage to be chosen during winter planning</td></tr><tr><td>Saturday</td><td>Breakfast, outdoor activities, and pack-out by late afternoon</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Camping gear, food, water, Bible, and activity-specific equipment; final packing details will follow.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
 <details class="event activity" id="event-14">
 <summary>
@@ -406,7 +411,7 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="time">Morning through mid-afternoon</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Spend the day paddling and exploring together, with a brief Scripture reflection during lunch.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>Morning–mid-afternoon</td><td>Canoe / river adventure</td></tr><tr><td>Lunch</td><td>Brief reflection — <a class="scripture-link" href="https://www.esv.org/verses/Matthew%2014%3A22-33/" target="_blank" rel="noopener">Matthew 14:22–33</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Water, lunch, weather-appropriate clothing, dry bag, and PFD if not provided.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/Matthew%2014%3A22-33/" target="_blank" rel="noopener">Matthew 14:22–33</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Spend the day paddling and exploring together, with a brief Scripture reflection during lunch.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>Morning–mid-afternoon</td><td>Canoe / river adventure</td></tr><tr><td>Lunch</td><td>Brief reflection — Passage to be chosen during winter planning</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Water, lunch, weather-appropriate clothing, dry bag, and PFD if not provided.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
 <details class="event activity" id="event-16">
 <summary>
@@ -415,7 +420,7 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Build a useful project together, with a brief Scripture reflection during the evening.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–8:30</td><td>Build project</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Water, work gloves, eye protection, and a Bible; project-specific details will follow.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/Matthew%207%3A24-27/" target="_blank" rel="noopener">Matthew 7:24–27</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Build a useful project together, with a brief Scripture reflection during the evening.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–8:30</td><td>Build project</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Water, work gloves, eye protection, and a Bible; project-specific details will follow.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
 <details class="event activity" id="event-17">
 <summary>
@@ -424,7 +429,7 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Practice firecraft and cook over the fire together, with a brief Scripture reflection during the evening.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–8:30</td><td>Firecraft + outdoor cooking</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Outdoor clothing, water, and a Bible; food and cooking assignments will follow.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/John%2021%3A9-17/" target="_blank" rel="noopener">John 21:9–17</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Practice firecraft and cook over the fire together, with a brief Scripture reflection during the evening.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–8:30</td><td>Firecraft + outdoor cooking</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Outdoor clothing, water, and a Bible; food and cooking assignments will follow.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
 <details class="event weekend" id="event-18">
 <summary>
@@ -433,16 +438,16 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="time">Afternoon through dinner</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Catch, clean, cook, and eat fish together, then close with a brief Scripture reflection.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>Afternoon–dinner</td><td>Fish, clean, cook, and eat</td></tr><tr><td>After dinner</td><td>Brief reflection — <a class="scripture-link" href="https://www.esv.org/verses/Luke%205%3A1-11/" target="_blank" rel="noopener">Luke 5:1–11</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Fishing gear, required license/permission, water, and weather-appropriate clothing; food details will follow.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/Luke%205%3A1-11/" target="_blank" rel="noopener">Luke 5:1–11</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Catch, clean, cook, and eat fish together, then close with a brief Scripture reflection.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>Afternoon–dinner</td><td>Fish, clean, cook, and eat</td></tr><tr><td>After dinner</td><td>Brief reflection — Passage to be chosen during winter planning</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Fishing gear, required license/permission, water, and weather-appropriate clothing; food details will follow.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
 <details class="event study" id="event-19">
 <summary>
 <div class="date">Tue Jul 27, 2027</div>
-<div class="summary-main"><span class="event-title">🏹 Archery Challenge + Joseph Forgives</span><span class="badge">Activity + Bible study</span></div>
+<div class="summary-main"><span class="event-title">🏹 Archery Challenge + Bible Study</span><span class="badge">Activity + Bible study</span></div>
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Practice archery together, then gather around the bonfire for Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Archery</td></tr><tr><td>7:30–8:30</td><td>Bonfire + Bible study — <a class="scripture-link" href="https://www.esv.org/verses/Genesis%2045%3A1-15/" target="_blank" rel="noopener">Genesis 45:1–15</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Bow and arrows if participating; Bible and a chair for the bonfire. No bow is needed to join at 7:30.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/Genesis%2045%3A1-15/" target="_blank" rel="noopener">Genesis 45:1–15</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Practice archery together, then gather around the bonfire for Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Archery</td></tr><tr><td>7:30–8:30</td><td>Bonfire + Bible study — Passage to be chosen during winter planning</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Bow and arrows if participating; Bible and a chair for the bonfire. No bow is needed to join at 7:30.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
 <details class="event activity" id="event-20">
 <summary>
@@ -451,7 +456,7 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Learn and practice BB-rifle safety before the fall campout, with a brief Scripture reflection during the evening.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–8:30</td><td>BB-rifle safety + practice</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Eye protection, water, and a Bible; BB rifles and ammunition details will follow.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/1%20Samuel%2024%3A1-12/" target="_blank" rel="noopener">1 Samuel 24:1–12</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Learn and practice BB-rifle safety before the fall campout, with a brief Scripture reflection during the evening.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–8:30</td><td>BB-rifle safety + practice</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Eye protection, water, and a Bible; BB rifles and ammunition details will follow.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
 <details class="event weekend" id="event-21">
 <summary>
@@ -460,7 +465,7 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="time">Friday afternoon through Sunday afternoon</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Spend the weekend camping, learning outdoor skills, and revisiting the full Iron Sons theme.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>Friday afternoon–Sunday afternoon</td><td>Fall campout</td></tr><tr><td>Throughout the weekend</td><td>Bible study — <a class="scripture-link" href="https://www.esv.org/verses/1%20Corinthians%2016%3A13-14/" target="_blank" rel="noopener">1 Corinthians 16:13–14</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Full campout packing list and Bible; detailed logistics will follow.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/1%20Corinthians%2016%3A13-14/" target="_blank" rel="noopener">1 Corinthians 16:13–14</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Spend the weekend camping, learning outdoor skills, and studying Scripture together.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>Friday afternoon–Sunday afternoon</td><td>Fall campout</td></tr><tr><td>Throughout the weekend</td><td>Bible study — Passage to be chosen during winter planning</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Full campout packing list and Bible; detailed logistics will follow.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details><details class="event activity" id="event-22">
 <summary>
 <div class="date">Tue Aug 24, 2027</div>
@@ -477,16 +482,16 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="time">Most of the day</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Complete a memorable father–son hike together, with a brief Scripture reflection during lunch.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>Most of the day</td><td>Father–son hike</td></tr><tr><td>Lunch</td><td>Brief reflection — <a class="scripture-link" href="https://www.esv.org/verses/Psalm%20121/" target="_blank" rel="noopener">Psalm 121</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Day pack, water, lunch, weather layers, and sturdy shoes.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/Psalm%20121/" target="_blank" rel="noopener">Psalm 121</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Complete a memorable father–son hike together, with a brief Scripture reflection during lunch.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>Most of the day</td><td>Father–son hike</td></tr><tr><td>Lunch</td><td>Brief reflection — Passage to be chosen during winter planning</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Day pack, water, lunch, weather layers, and sturdy shoes.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
 <details class="event study" id="event-24">
 <summary>
 <div class="date">Tue Sep 28, 2027</div>
-<div class="summary-main"><span class="event-title">🏹 Archery + David and Jonathan</span><span class="badge">Activity + Bible study</span></div>
+<div class="summary-main"><span class="event-title">🏹 Archery + Bible Study</span><span class="badge">Activity + Bible study</span></div>
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Practice archery together, then gather around the bonfire for Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Archery</td></tr><tr><td>7:30–8:30</td><td>Bonfire + Bible study — <a class="scripture-link" href="https://www.esv.org/verses/1%20Samuel%2020%3A30-42/" target="_blank" rel="noopener">1 Samuel 20:30–42</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Bow and arrows if participating; Bible and a chair for the bonfire. No bow is needed to join at 7:30.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/1%20Samuel%2020%3A30-42/" target="_blank" rel="noopener">1 Samuel 20:30–42</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Practice archery together, then gather around the bonfire for Bible study.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Archery</td></tr><tr><td>7:30–8:30</td><td>Bonfire + Bible study — Passage to be chosen during winter planning</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Bow and arrows if participating; Bible and a chair for the bonfire. No bow is needed to join at 7:30.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
 <details class="event activity" id="event-25">
 <summary>
@@ -495,23 +500,38 @@ footer{margin-top:32px;color:var(--muted);font-size:13px;border-top:1px solid va
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Prepare and eat food over the fire together, with a brief Scripture reflection during the evening.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–8:30</td><td>Outdoor cooking + eating together</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Outdoor clothing, water, and a Bible; food and cooking assignments will follow.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/Mark%206%3A30-44/" target="_blank" rel="noopener">Mark 6:30–44</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Prepare and eat food over the fire together, with a brief Scripture reflection during the evening.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–8:30</td><td>Outdoor cooking + eating together</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Outdoor clothing, water, and a Bible; food and cooking assignments will follow.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
 <details class="event study" id="event-26">
 <summary>
 <div class="date">Tue Oct 26, 2027</div>
-<div class="summary-main"><span class="event-title">🔥 Final Bonfire + Jesus Washes Feet</span><span class="badge">Activity + Bible study</span></div>
+<div class="summary-main"><span class="event-title">🔥 Final Bonfire + Bible Study</span><span class="badge">Activity + Bible study</span></div>
 <div class="time">6:30–8:30 PM</div>
 </summary>
 <div class="event-body">
-<section><h3>What we're doing</h3><p>Celebrate the year around the bonfire, then finish with a final Bible study and dads praying for their sons.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Bonfire, dessert, and year-in-review</td></tr><tr><td>7:30–8:30</td><td>Bible study — <a class="scripture-link" href="https://www.esv.org/verses/John%2013%3A1-17/" target="_blank" rel="noopener">John 13:1–17</a> + <a class="scripture-link" href="https://www.esv.org/verses/1%20Corinthians%2016%3A13-14/" target="_blank" rel="noopener">1 Corinthians 16:13–14</a></td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Bible, chair, and outdoor clothing.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong><a class="scripture-link" href="https://www.esv.org/verses/John%2013%3A1-17/" target="_blank" rel="noopener">John 13:1–17</a> + <a class="scripture-link" href="https://www.esv.org/verses/1%20Corinthians%2016%3A13-14/" target="_blank" rel="noopener">1 Corinthians 16:13–14</a></strong></p></section></div>
+<section><h3>What we're doing</h3><p>Celebrate the year around the bonfire, then finish with a final Bible study and dads praying for their sons.</p><h3>Schedule</h3><table class="flow"><tbody><tr><td>6:30–7:30</td><td>Bonfire, dessert, and year-in-review</td></tr><tr><td>7:30–8:30</td><td>Bible study — Passage to be chosen during winter planning</td></tr></tbody></table></section><section class="two-col"><div><h3>Location</h3><p>See Google Calendar for the confirmed location.</p></div><div><h3>What to bring</h3><p>Bible, chair, and outdoor clothing.</p></div></section><section class="scripture"><h3>Passage</h3><p><strong>Passage to be chosen during winter planning</strong></p></section></div>
 </details>
-<footer>Confirmed locations and current event logistics are maintained in Google Calendar.</footer>
+<details class="curriculum-panel future-panel" id="future-theme"><summary><h2>For winter discussion · A possible 2027 theme</h2></summary>
+<p><strong>Biblical manhood and <a class="scripture-link" href="https://www.esv.org/1%20Corinthians%2016%3A13-14/">1 Corinthians 16:13–14</a></strong> are a possible direction for the coming year, to be considered together by the dads. We will study the passage in context and decide whether it serves the boys and the larger purpose of the group.</p>
+<p>If we adopt that theme, begin each study with COMA. Only after understanding the passage, ask where watchfulness, firm faith, courage, strength, and love are being lived out—or where someone fails to show them. Let each passage make its own point.</p>
+<p><strong>Possible resources for the dads:</strong> <a href="https://www.moodypublishers.com/authentic-masculinity"><em>Authentic Masculinity</em></a> by Seth Troutt, and <em>The Intentional Father</em> by Jon Tyson. These are options to discuss; a curriculum has not yet been selected.</p>
+<p>The winter meetings give us time to study, pray for our boys, choose passages, share leadership, and shape the next two years before middle-school ministry.</p>
+<p>Background: <a class="scripture-link" href="https://www.esv.org/1%20Corinthians%2016%3A13-14/">1 Corinthians 16:13–14</a> · <a href="bible-studies/iron-sons-1-corinthians-16-study.html">Read the full passage study</a></p>
+</details>
+<footer>Confirmed locations and current event logistics are maintained in Google Calendar.<br>Plan updated September 8, 2026 · <a href="iron-sons-plan-before-2026-09-08.html">Earlier plan (before this revision)</a></footer>
 </main>
 <script>
-const events = [...document.querySelectorAll('details.event')];
+const events = [...document.querySelectorAll('details')];
 document.getElementById('expand').addEventListener('click', () => events.forEach(d => d.open = true));
 document.getElementById('collapse').addEventListener('click', () => events.forEach(d => d.open = false));
+function openLinkedSection() {
+  const id = decodeURIComponent(location.hash.slice(1));
+  const target = document.getElementById(id);
+  if (target && target.tagName === 'DETAILS') target.open = true;
+}
+window.addEventListener('hashchange', openLinkedSection);
+openLinkedSection();
 </script>
 </body>
 </html>
+
